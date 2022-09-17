@@ -1,5 +1,6 @@
 # BoW-MLP
 
+TODO
 
 # Запуск
 
