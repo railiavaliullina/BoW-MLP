@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Professional/Documents/NaturalLanguageProcessing/bow-mlp/executor/mlruns/0/4c0fdf41d1c54af8943d02deb2754822/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 4c0fdf41d1c54af8943d02deb2754822
+run_uuid: 4c0fdf41d1c54af8943d02deb2754822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1634960678830
+status: 1
+tags: []
+user_id: Professional
