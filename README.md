@@ -12,7 +12,7 @@ File to run:
 
     executor/executor.py
 
-- After running executor.py validation will start on train and test data with the best checkpoint, and then training will continue.
+- After running executor.py, there is validation step on train and test data with the best checkpoint, and then training continues.
 
 To run on Kaggle: 
 
