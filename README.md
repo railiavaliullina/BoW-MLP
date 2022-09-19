@@ -1,23 +1,41 @@
 # BoW-MLP
 
-TODO
+## About The Project
 
-# Запуск
+1) Implementation of Bag Of Words and MLP,
+2) Training MLP on AG News Classification Dataset for documents classification task.
 
-Файл для запуска: executor/executor.py
+## Getting Started
 
-Запустится валидация на train, test данных с лучшим чекпоинтом и затем продолжится обучение.
 
-Код для запуска на кэггл: https://www.kaggle.com/rvnrvn1/bow-mlp
+File to run:
 
-Графики: saved_files/plots/accuracy_loss (all experiments)/
+    executor/executor.py
 
-Конф. матрицы: saved_files/plots/conf_matrices/
+- After running executor.py validation will start on train and test data with the best checkpoint, and then training will continue.
 
-Mlflow логи: executor/mlruns.zip
+To run on Kaggle: 
 
-Лучшая точность: 90.5 %
+    https://www.kaggle.com/rvnrvn1/bow-mlp
 
-Testing error: 9.5 %
 
-Лучшая точность получена с 2 fc слоями: 50000x128, 128x4 с дропаутами, функцией активации ReLU, xavier инициализацией весов (название эксперимента в коде и папках с визуализацией: 1_hidden_layer_128_dim).
+## Additional Information
+
+Visualization of accuracy on the training and test samples, loss are in: 
+
+    saved_files/plots/accuracy_loss (all experiments)/
+
+Confusion matrices are in: 
+
+    saved_files/plots/conf_matrices/
+
+Mlflow logs are in: 
+
+    executor/mlruns.zip
+
+Best achieved result:
+
+    Accuracy: 90.5 %
+    Testing error: 9.5 %
+
+The best accuracy was obtained with 2 fc layers: 50000x128, 128x4 with dropouts, ReLU activation function, xavier weight initialization (experiment name in code and folders with visualization: 1_hidden_layer_128_dim).
