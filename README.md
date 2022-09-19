@@ -3,7 +3,7 @@
 ## About The Project
 
 1) Implementation of Bag Of Words and MLP,
-2) Training MLP on AG News Classification Dataset for documents classification task.
+2) Training MLP on AG News Classification Dataset for document classification task.
 
 ## Getting Started
 
