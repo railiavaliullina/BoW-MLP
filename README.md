@@ -29,7 +29,7 @@ Confusion matrices are in:
 
     saved_files/plots/conf_matrices/
 
-Mlflow logs are in: 
+MlFlow logs are in: 
 
     executor/mlruns.zip
 
